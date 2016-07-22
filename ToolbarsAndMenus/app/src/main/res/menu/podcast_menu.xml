@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ander.toolbarsactionbars.ScrollingActivity">
+
+    <item
+        android:id="@+id/tv_bluetooth"
+        android:icon="@drawable/bluetooth"
+        android:title="Bluetooth"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/add_new_podcast"
+        android:icon="@drawable/ic_gamepad_black_24dp"
+        android:title="new"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/zelda_sounds"
+        android:icon="@android:drawable/presence_audio_online"
+        android:title="zelda sounds"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/pokemon_sounds"
+        android:icon="@android:drawable/presence_audio_online"
+        android:title="pokemon sounds"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Facetune">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/top_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_alignParentBottom="true">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_gamepad_black_24dp"
+                android:background="#00ffffff"
+                android:layout_margin="5dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_repeat_one_white_24dp"
+                android:background="#00ffffff"
+                android:layout_margin="5dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/eye"
+                android:background="#00ffffff"
+                android:layout_margin="5dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/shopping_cart"
+                android:background="#00ffffff"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"/>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/facetunetoolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/colorPrimary"
+                        app:popupTheme="@style/AppTheme.PopupOverlay"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_alignParentTop="true">
+
+                    </android.support.v7.widget.Toolbar>
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/profile_pic"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="#00ffffff"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/anchor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="15dp"
+                    android:text="Whiten"
+                    />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/check_mark"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="#00ffffff"
+
+                    android:layout_alignParentRight="true"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+</RelativeLayout>
